@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Online-Store/static/css/main.d0862b53.chunk.css",
+    "main.js": "/Online-Store/static/js/main.edafe09f.chunk.js",
+    "main.js.map": "/Online-Store/static/js/main.edafe09f.chunk.js.map",
+    "runtime-main.js": "/Online-Store/static/js/runtime-main.934c8033.js",
+    "runtime-main.js.map": "/Online-Store/static/js/runtime-main.934c8033.js.map",
+    "static/js/2.d2c74473.chunk.js": "/Online-Store/static/js/2.d2c74473.chunk.js",
+    "static/js/2.d2c74473.chunk.js.map": "/Online-Store/static/js/2.d2c74473.chunk.js.map",
+    "index.html": "/Online-Store/index.html",
+    "static/css/main.d0862b53.chunk.css.map": "/Online-Store/static/css/main.d0862b53.chunk.css.map",
+    "static/js/2.d2c74473.chunk.js.LICENSE.txt": "/Online-Store/static/js/2.d2c74473.chunk.js.LICENSE.txt",
+    "static/media/building.438a47de.png": "/Online-Store/static/media/building.438a47de.png",
+    "static/media/logo.26ec3182.png": "/Online-Store/static/media/logo.26ec3182.png",
+    "static/media/pvct.b0250e2b.jpg": "/Online-Store/static/media/pvct.b0250e2b.jpg",
+    "static/media/torneiraesquadria.3f66feae.jpg": "/Online-Store/static/media/torneiraesquadria.3f66feae.jpg",
+    "static/media/tubopvc.128fae36.png": "/Online-Store/static/media/tubopvc.128fae36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.934c8033.js",
+    "static/js/2.d2c74473.chunk.js",
+    "static/css/main.d0862b53.chunk.css",
+    "static/js/main.edafe09f.chunk.js"
+  ]
+}
