@@ -1,0 +1,308 @@
+body, html, #root {
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+#nav {
+    position: fixed;
+    background: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-items {
+    margin-right: 50px;
+    font-size: 1.5rem;
+    transition: color 0.2s, border 0.2s;
+}
+
+.nav-items:hover {
+    color: rgb(248, 145, 145) !important;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+}
+
+#building-image {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#info {
+    position: absolute;
+    top: 770px;
+    color: black;
+    height: 410px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: gainsboro;
+}
+
+#text-container {
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#info-text {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background: black;
+    display: flex;
+    position: absolute;
+    top: 1180px;
+}
+
+#contact {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid white;
+    letter-spacing: 0.15rem;
+}
+
+p{
+    margin: 0;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#logo-text {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+#logo-highlight {
+    color: red;
+    text-shadow: 0px 0px 10px rgb(199, 88, 88);
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+#github-mention {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#space-simul {
+    height: 70px;
+}
+
+#shopping {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(134,76,76,1) 100%);
+}
+
+#good-footer {
+    height: 150px;
+    width: 100%;
+    background: black;
+    display: flex;
+    margin-top: auto;
+    
+}
+
+#product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.product {
+    height: 510px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(255, 230, 230);
+    box-shadow: 0px 0px 5px black;
+    background: black;
+}
+
+.posters {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 0px;
+}
+
+.poster-name {
+    margin-top: 0px;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.add-buttons {
+    text-align: center;
+    margin-left: 25%;
+    outline: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+.add-buttons:hover {
+    color: white;
+    background: rgb(182, 92, 92);
+    cursor: pointer;
+}
+
+#cart {
+    position: fixed;
+    margin-top: 67px;
+    right: 0;
+    z-index: 2;
+    width: 400px;
+    height: 600px;
+    background: gainsboro;
+    border: 3px solid black;
+    color: black;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 6rem;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-list {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.cart-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.interact-cart {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.interact-cart:hover {
+    cursor: pointer;
+    background: rgba(134,76,76,1);
+    border: 1px solid white;
+    color: white;
+}
+
+#preco {
+    margin-top: 100px;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+@media screen and (max-width: 1650px) {
+    #text-container {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #text-container {
+        margin-left: 20%;
+        margin-right: 20%;
+    }  
+}
+
+@media screen and (max-width: 900px) {
+    #logo {
+        display: none;
+    }
+
+    #info-text {
+        font-size: 1.9rem;
+    }
+    
+    .contact-text {
+        font-size: 0.8rem;
+    }
+    h2.contact-text {
+        margin-top: 30px;
+    }
+    #github-mention {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #text-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .product {
+        height: 410px;
+        width: 300px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        color: rgb(255, 230, 230);
+        box-shadow: 0px 0px 5px black;
+        background: black;
+    }
+    
+    .posters {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 0px;
+    }  
+
+    #cart {
+        width: 300px;
+    }
+
+    .cart-list {
+        font-size: 1.4rem;
+    }
+}
