@@ -41,7 +41,7 @@ function Routes() {
             <Nav toggleCart={toggleCart}/>
             {cart}
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/Online-Shop">
                     <App />
                 </Route>
                 <Route exact path="/Shop" component={Shop} >
