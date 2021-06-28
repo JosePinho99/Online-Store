@@ -7,7 +7,7 @@ function Nav(props) {
         <div id="nav">
             <div className="flex-row">
                 <img id="logo" src={Logo} alt="Logo"></img>
-                <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/">
+                <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/Online-Shop">
                     <p id="logo-text">Tabela <span id="logo-highlight">Permanente</span></p>
                 </Link>
                 
